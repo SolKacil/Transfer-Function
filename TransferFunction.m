@@ -3,11 +3,11 @@ clear all
 close all
 
 %Define un vector tiempo (opcional para este caso)
-t = 0:0.01:5;
+t = 0:0.01:40;
 %Definir parametros
-m = 0.33;
-b = 1; 
-k = 1;
+m = 5;
+b = 2; 
+k = 3;
 % Definir el sistema
 num = [1]; 
 den = [m b k]; 
