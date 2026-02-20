@@ -5,11 +5,12 @@ close all
 %Define un vector tiempo (opcional para este caso)
 t = 0:0.01:5;
 %Definir parametros
-tau = 0.33;
-k = 1; 
+m = 0.33;
+b = 1; 
+k = 1;
 % Definir el sistema
-num = [k]; 
-den = [tau 1]; 
+num = [1]; 
+den = [m b k]; 
 H = tf(num, den);
 
 %Obtenemos los polos y ceros
