@@ -4,8 +4,6 @@ Este repositorio contiene un script de MATLAB diseñado para el modelado y anál
 
 ## Estructura del Código
 
-El script está organizado en secciones lógicas para facilitar su comprensión:
-
 ### 1. Definición de Parámetros Físicos
 Se establecen las constantes del sistema mecánico:
 * **Masa (m):** 0.33 kg
