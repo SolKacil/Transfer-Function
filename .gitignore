@@ -1,0 +1,16 @@
+# Archivos temporales de edición de MATLAB
+*.asv
+*.m~
+
+# Carpetas de simulación de Simulink y generación de código
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+
+# Archivos de bitácora y diagnóstico
+*.log
+*.mat.autosave
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
